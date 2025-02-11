@@ -53,6 +53,8 @@ The Patient Management System API is a robust and scalable solution designed to 
 
 * Dependency Injection: For managing dependencies and promoting testability.
 
+* Serilog: For logging configuration
+
 * Repository Pattern: For abstracting data access logic.
 
 ## PatienceController

@@ -33,15 +33,24 @@ The Patient Management System API is a robust and scalable solution designed to 
 
 * Proper error responses for invalid requests or missing data.
 
+* Custom Error-Exception methods was created for `NotFoundException()` and `AlreadyExistsException()`.
+
+* Uses `ErroHandlingMiddleware.cs` in the middleware folder to register the above error exceptions.
+
+* Registered the error handling middleware in the `program.cs` class as a Custom middleware in our request and response pipeline.
+
 ### 6. Logging Injection:
 
 * Each repository class receives an instance of ILogger<T> via dependency injection, where T is the repository class.
+
 
 ### 7. RESTful API:
 
 * Follows REST conventions for clear and predictable endpoints.
 
 * Supports JSON for request and response payloads. 
+
+
 
 
 ## Technologies Used
